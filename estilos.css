@@ -1,0 +1,170 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html,body{	
+	height: 100%;
+	width: 100%;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	background: #7847AC;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.container .cabecera{
+	margin-top: 20px;
+	color: #fff;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 10px;
+
+}
+
+.container .cabecera img{
+	height: 100px;
+	width: 120px;
+	margin-right: 20px;
+
+}
+
+.caja1{
+	width: 350px;
+	height: 355px;
+	background: #fff;
+	border: 1px solid white;
+	padding: 10px;
+	padding-top: 40px;
+	padding-left: 20px;
+	border-top-right-radius:  14px;
+	border-top-left-radius:  14px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caja1 label{
+	padding-right: 20px;
+}
+
+.caja1 h2{
+	font-size: 20px;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: center;
+
+}
+
+div.email{
+	margin-top: 20px;
+}
+
+div.email label{
+	padding-right: 45px;
+}
+
+div.password{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+div.password label{
+	padding-right: 15px;
+}
+
+div input[type="checkbox"]{
+	margin-top: 20px;
+}
+
+
+
+div input:focus {
+	
+  outline: 2px solid rgb(100, 73, 134);
+}
+
+.caja1 button{
+	margin-top: 20px;
+	margin-left: 35%;
+	background: #7847AC;
+	text-align: center;
+	font-size: 16px;
+	border: none;
+	border-radius: 14px;
+	font-family: 'Hammersmith One', sans-serif;
+	padding: 15px 32px;
+	color: #fff;
+
+}
+
+.caja1 button:hover{
+	background: #4E2E71;
+	cursor: pointer;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24),0 9px 8px 0 rgba(0,0,0,0.16);
+
+}
+
+.caja2{
+	width: 350px;
+	height: 80px;
+	background: #7B7680;
+	border: 1px solid #7B7680;
+	padding: 10px;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px; 
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caja2 p{
+	color: #fff;
+	padding-left: 15px;
+}
+
+.caja2 a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #7B7680;
+	background: #7847AC;
+	padding: 15px;
+	border-radius: 14px; 
+}
+
+.caja2 a:hover{
+	background: #4E2E71;
+	cursor: pointer;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24),0 9px 8px 0 rgba(0,0,0,0.16);
+}
+
+
+
+.mensajeCreado{
+	position: fixed;
+	margin:auto;
+	border: 2px solid black;
+	background: white;
+	padding: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+	.caja1{
+		height: 355px;
+		width: 350px;
+	}
+	.caja2{
+		width: 350px;
+		height: 80px;
+	}
+}
