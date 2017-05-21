@@ -158,6 +158,7 @@ div input:focus {
 }
 
 
+/*
 @media screen and (max-width: 600px){
 	.caja1{
 		height: 355px;
@@ -167,4 +168,37 @@ div input:focus {
 		width: 350px;
 		height: 80px;
 	}
+}
+*/
+
+@media screen and (max-width: 340px){
+
+	.cabecera{
+		flex-direction: column-reverse;	
+	}	
+	.cabecera img{
+		
+		padding-bottom: 10px;
+	}
+	.cabecera h2{
+		justify-content: center;
+	}
+	.caja1{
+		padding-top: 20px;
+		width: 320px;
+	}
+	.caja1 button{
+		margin-bottom: 30px;
+	}
+
+	.caja2{
+		width: 320px;
+		padding-top: 2px;
+		padding-left: 20px;
+	}
+
+	.caja2 a{
+		padding: 10px;
+	}
+
 }
